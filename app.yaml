@@ -1,0 +1,41 @@
+runtime: python 310
+
+handlers:
+- url: /.*
+  script: login.app
+
+libraries:
+- name: flask
+  version: 2.1.2
+- name:  aniso8601late
+  version: 9.0.1
+- name: colorama
+  version: 0.4.4
+- name: Flask-Cors
+  version: 3.0.10
+- name: Flask-RESTful
+  version: 0.3.9
+- name: Flask-SQLAlchemy
+  version: 2.5.1
+- name: greenlet
+  version: 1.1.2
+- name: itsdangerous
+  version: 2.1.2
+- name: Jinja2
+  version: 3.1.2
+- name: MarkupSafe
+  version: 2.1.1
+- name: PyJWT
+  version: 2.4.0
+- name: pytz
+  version: 2022.1
+- name: six
+  version: 1.16.0
+- name: SQLAlchemy
+  version: 1.4.37
+- name: Werkzeug
+  version: 2.1.2
+
+
+  
+
