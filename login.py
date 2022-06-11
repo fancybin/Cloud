@@ -64,7 +64,7 @@ def butuh_token(f):
 
 #routing endpoint
 #routing auth 
-@login.route('/', methods=['GET'])
+@login.route('/')
 def hello_World():
     return "This is FancyBin"
 
