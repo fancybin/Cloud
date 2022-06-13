@@ -56,7 +56,7 @@ Login &amp; Register With Flask Restful and JWT
 
 ### Detail
 - URL
-  - `/fancy/result/1`
+  - `/fancy/result/2`
 - Method
   - GET
   - PUT
@@ -67,5 +67,8 @@ Login &amp; Register With Flask Restful and JWT
   - `konten` as `text`
   - `poin` as `string`
 - Response
-  - `"message: Data Successfully Update!!"`<br/>
+  - `"id": 2,
+	"jenis": "Anorganik",
+	"konten": "sampah anorganik berasal dari organisme tidak hidup. Contoh sampah anorganik. Kaleng aluminium. Styrofoam. Kertas kaca. Logam (sendok, peralatan masak, hiasan, dll.) Kemasan plastik. Kaca. Keramik.",
+	"poin": "2"`<br/>
 
